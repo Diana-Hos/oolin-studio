@@ -20,14 +20,13 @@ html {
     position: fixed;
 }
 
-ul {
+.nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
     margin-right: 45px;
-    /* border-left: 50px dotted black; */
     right: 0;
     width: 5%;
     height: 100%;
@@ -35,14 +34,14 @@ ul {
 
 }
 
-li a {
+.nav ul li a {
     text-decoration: none;
     display: block;
     transition: transform 2s;
     transition-timing-function: ease-in-out;
 }
 
-li a:hover {
+.nav ul li a:hover {
     cursor: default;
     transform: rotate(90deg);
     font-size: x-large;
@@ -50,12 +49,12 @@ li a:hover {
     text-decoration: line-through;
 }
 
-li a:active {
+.nav li a.active {
     background-color: palegreen;
     border-radius: 50px;
 }
 
-li a:visited {
+.nav ul li a:visited {
     text-decoration: line-through;
 }
 
@@ -73,7 +72,7 @@ h1 {
 h1:hover {
     animation-name: floating;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
@@ -130,10 +129,44 @@ div .each-column:hover {
 }
 
 .contact a {
+    cursor: default;
     text-decoration: none;
 }
 
 .contact:hover {
     color:blue;
     text-decoration: line-through;
+}
+
+.about-me {
+    display: block;
+    text-align: justify;
+    margin: 100px 200px;
+}
+
+.text-p {
+    margin-bottom: 50px;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    list-style-type: persian;
+}
+
+.list ul li a {
+    text-decoration: none;
+    cursor: default;
+}
+
+.list ul li {
+    margin-bottom: 10px;;
+}
+
+.list ul li a:hover {
+    text-decoration: line-through;
+    color: red;
 }
