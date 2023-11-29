@@ -10,9 +10,10 @@ Content:
 Aesthetic: cool minimalism
 background-color: white
 text-color: black
-font: dekar light
-nav bar: hover highlight
-hover color: neon (paleblue or palegreen)
+font: courier
 headings: bold
+
+side nav bar: hover transition red strike-through/ active palegreen
 h1: transform
-links: active - neon (paleblue or palegreen)
+email: blue strike-through
+text hover: palegreen

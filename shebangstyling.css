@@ -51,7 +51,7 @@ li a:hover {
 }
 
 li a:active {
-    background-color: yellow;
+    background-color: palegreen;
     border-radius: 50px;
 }
 
@@ -61,16 +61,20 @@ li a:visited {
 
 h1 {
     font-size: 3em;
-    animation-name: floating;
-    animation-duration: 5s;
-    animation-iteration-count: 3;
-    animation-timing-function: ease-in-out;
+
 }
 
 @keyframes floating {
     0% {transform: translate(0, 0px); }
     50% {transform: translate(0, 100px); }
     100% {transform: translate(0, -0px); }
+}
+
+h1:hover {
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
 }
 
 .mainimage {
@@ -116,7 +120,7 @@ div .each-column:hover {
     position: absolute;
     display: none;
     left: 0;
-    padding-left: 70px;
+    margin-left: 70px;
 }
 
 .logo.smiley:hover + .hide{
