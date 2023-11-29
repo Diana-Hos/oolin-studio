@@ -16,6 +16,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.logo.alien {
+    position: fixed;
+}
+
 ul {
     display: flex;
     flex-direction: column;
@@ -102,8 +106,23 @@ div .each-column:hover {
 }
 
 .logo {
+    display: flex;
+    justify-content: start;
     width: 30px;
     height: 30px;
+}
+
+.hide {
+    position: absolute;
+    display: none;
+    left: 0;
+    padding-left: 70px;
+}
+
+.logo.smiley:hover + .hide{
+    display: block;
+    font-weight: bold;
+    color: red;
 }
 
 .contact a {
