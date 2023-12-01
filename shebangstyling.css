@@ -372,7 +372,7 @@ fieldset {
 
 .field {
     width: 70%;
-    outline-color: red;
+    outline-color: orange;
     border-radius: 17px;
     border: 1px solid black;
     margin: 4px 0px;
@@ -430,7 +430,10 @@ button {
 }
 
 button:hover {
-    color: red;
+    width: 50%;
+    height: 50%;
+    color: orange;
+    border: 3px solid orange;
     text-decoration: line-through;
     font-weight: bolder;
     font-size: larger;
