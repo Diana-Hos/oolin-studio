@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>order</title>
+        <link rel="stylesheet" type="text/css" href="shebangstyling.css">
+        <link rel="icon" type="image/x-icon" href="favicon-green.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div>
+            <img class="logo alien" src="favicon-green.ico" alt="green alien logo">
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <div class="nav">
+                    <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="design.html">designs</a></li>
+                    <li><a class="active" href="order.html">order</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main">
+                <div>
+                    <h1>order request</h1>
+                </div>
+
+                <form action="/form-handling-url" method="post">
+                    <fieldset>
+                        <!-- <legend>customize</legend> -->
+
+                        <div class="form-content">
+                            <div class="labels">
+                                <label for="fullName">full name</label>
+                            </div>
+                            <div>
+                                <input class="field" type="text" id="fullName" name="full_name">
+                            </div>
+
+                            <div class="labels">
+                                <label for="email">Email</label>
+                            </div>
+                            <div>
+                                <input class="field" type="email" id="email" name="email_address">
+                            </div>
+
+                            <div>
+                                <p class="divider">choose your design:</p>
+                                <div class="options">
+                                <input type="radio" id="design1" name="designs" value="design1">
+                                <label class="optionsLabel" for="design1">design 1</label><br>
+                                <input type="radio" id="design2" name="designs" value="design2">
+                                <label class="optionsLabel" for="design2">design 2</label><br>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="divider">choose your version:</p>
+                                <div class="options2">
+                                <input type="radio" id="versionA" name="versions" value="versionA">
+                                <label class="optionsLabel" for="versionA">version A</label><br>
+                                <input type="radio" id="versionB" name="versions" value="versionB">
+                                <label class="optionsLabel" for="versionB">version B</label><br>
+                                <input type="radio" id="versionC" name="versions" value="versionC">
+                                <label class="optionsLabel" for="versionC">version C</label>
+                                </div>
+                            </div>
+
+                            <div class="divider">
+                                <label for="comments">additional notes</label>
+                            </div>
+                            <div>
+                                <textarea class="field" id="comments" name="comments"></textarea>
+                            </div>
+
+                            <div class="columns2">
+                                <div>
+                                <input type="checkbox" id="signup" name="signup" value="Signup">
+                                </div>
+                                <div>
+                                <label class="optionsLabel" for="signup">sign up for new releases</label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <button class="submit" type="submit">Submit</button>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="footer">
+                <img class="logo smiley" src="smiley-2_430-430-min.png" alt="smiley face with lightning eyes"><span class="hide">web design by JOOJ</span>
+                <div class="contact">
+                    <a href="mailto:info@she-bang.com">info@she-bang.com</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

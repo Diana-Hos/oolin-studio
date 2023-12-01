@@ -11,9 +11,9 @@ html {
     margin: 0 150px 0 20px;
     padding-right: 20px;
     border-right: 10px dotted black;
-    /* 50 */
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    height: 100%;
 }
 
 @media (max-width: 992px) {
@@ -261,8 +261,6 @@ div .each-column:hover {
 }
 
 .design-layout {
-    /* padding-top: 60px; */
-    /* padding-bottom: 50px; */
     padding: 60px 70px 50px 70px;
 }
 
@@ -276,15 +274,6 @@ div .each-column:hover {
 }
 
 .image-grid {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: repeat(2, 1fr); */
-    /* grid-row-gap: 40px; */
-    /* grid-column-gap: 40px; */
-    /* align-content: center; */
-    /* justify-content: center; */
-    /* justify-items: center; */
-    /* align-items: center; */
     padding-top: 50px;
     margin: 0px 10px;
 }
@@ -295,7 +284,6 @@ div .each-column:hover {
 
 .row-1 {
     display: flex;
-
 }
 
 .row-1 img {
@@ -367,5 +355,83 @@ div .each-column:hover {
         display: flex;
         flex-direction: column;
     }
+}
 
+fieldset {
+    padding: 20px;
+    margin: 20px 400px 70px;
+    background-color: palegreen;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.form-content {
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.field {
+    width: 70%;
+    outline-color: red;
+    border-radius: 17px;
+    border: 1px solid black;
+    margin: 4px 0px;
+}
+
+.labels {
+    margin: 10px 0px 0px;
+}
+
+.divider {
+margin: 20px 0px 0px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    outline: none;
+    margin-top: 5px;
+}
+
+.options2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 50px;
+    resize: none;
+}
+
+.columns2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    outline: none;
+    margin-top: 5px;
+}
+
+.optionsLabel {
+    margin: 0px 10px;
+}
+
+button {
+    width: 40%;
+    height: 30px;
+    background-color: white;
+    border-radius: 17px;
+    margin: 30px 0px 20px;
+}
+
+button:hover {
+    color: red;
+    text-decoration: line-through;
+    font-weight: bolder;
+    font-size: larger;
 }
