@@ -1,4 +1,4 @@
-# shebang-studio
+# oolin-studio
 Capstone web project using basic HTML and CSS styling
 Website: oolin design studio
 Content:
